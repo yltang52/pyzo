@@ -201,5 +201,6 @@ class Parser(object):
 from . import (     python_parser, 
                     cython_parser,
                     c_parser,
+                    zoof_parser,
                                 )
 
