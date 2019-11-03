@@ -5,18 +5,18 @@
     <message>
         <location filename="../../util/bootstrapconda.py" line="116"/>
         <source>This will download and install miniconda on your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>這會在您的電腦下載並安裝 miniconda。</translation>
     </message>
     <message>
         <location filename="../../util/bootstrapconda.py" line="120"/>
         <source>Also install scientific packages</source>
-        <translation type="unfinished"></translation>
+        <translation>同時安裝科學套件</translation>
     </message>
     <message>
         <location filename="../../util/bootstrapconda.py" line="143"/>
         <source>Waiting to start installation.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>等待開始安裝</translation>
     </message>
 </context>
 <context>
@@ -1038,12 +1038,12 @@
     <message>
         <location filename="../../core/menu.py" line="596"/>
         <source>Redo ::: Redo the last undone editing action.</source>
-        <translation type="unfinished"></translation>
+        <translation>重做 ::: 重做上一個未完成的編輯動作。</translation>
     </message>
     <message>
         <location filename="../../core/menu.py" line="1193"/>
         <source>Help on this expression ::: Show help for the selected expression.</source>
-        <translation type="unfinished"></translation>
+        <translation>此表示式的輔助說明 ::: 顯示所選擇表示式的輔助說明</translation>
     </message>
 </context>
 <context>
@@ -1104,7 +1104,7 @@
     <message>
         <location filename="../../core/menu.py" line="2317"/>
         <source>Advanced Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>進階設定</translation>
     </message>
 </context>
 <context>
@@ -1112,7 +1112,7 @@
     <message>
         <location filename="../../tools/pyzoFileBrowser/__init__.py" line="8"/>
         <source>File Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>檔案瀏覽器</translation>
     </message>
 </context>
 <context>
@@ -1128,12 +1128,12 @@
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="14"/>
         <source>Interactive help</source>
-        <translation type="unfinished"></translation>
+        <translation>互動式輔助說明</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="15"/>
         <source>Shows help on an object when using up/down in autocomplete.</source>
-        <translation type="unfinished"></translation>
+        <translation>在自動完成中使用向上/向下鍵時，顯示該物件的輔助說明</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="215"/>
@@ -1142,47 +1142,47 @@ Help information is queried from the current shell
 when moving up/down in the autocompletion list
 and when double clicking on a name.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>在自動完成中使用向上/向下鍵，或雙擊一個名稱時，將會查詢輔助說明資訊。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="355"/>
         <source>Smart format</source>
-        <translation type="unfinished"></translation>
+        <translation>智慧型格式</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="366"/>
         <source>Font size: %i</source>
-        <translation type="unfinished"></translation>
+        <translation>字型大小：%i</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="43"/>
         <source>This keyword introduces the definition of a class.</source>
-        <translation type="unfinished"></translation>
+        <translation>此關鍵字簡介一個類別的定義。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="113"/>
         <source>This keyword introduces the definition of a function.</source>
-        <translation type="unfinished"></translation>
+        <translation>此關鍵字簡介一個函式的定義。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="176"/>
         <source>No help is available for operators because they are ambiguous: their meaning depend on the type of the first operand.</source>
-        <translation type="unfinished"></translation>
+        <translation>因此運算子意義不明，因此沒有輔助說明：其意義取決於第一個運算元的資料型態。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="332"/>
         <source>Help on this</source>
-        <translation type="unfinished"></translation>
+        <translation>這各的輔助說明</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="18"/>
         <source>Suspend the execution of coroutine on an awaitable object. Can only be used inside a coroutine function.</source>
-        <translation type="unfinished"></translation>
+        <translation>暫停執行等候物件的協程 (Coroutine)。只能在協程函數內部使用。/translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="19"/>
         <source>This keyword can appear as part of an alternative (see: ``if``), a loop (see: ``for``, ``while``) or a ``try`` statement.</source>
-        <translation type="unfinished"></translation>
+        <translation>此關鍵字可以在決策 (見： ``if``)、迴圈 (見：``for``, ``while``)、或嘗試 ``try`` 指令中出現。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="20"/>
@@ -1198,24 +1198,35 @@ from foo import attr       # foo imported and foo.attr bound as attr
 from foo import *          # foo imported and all its members bound
                                     # under their respective names
 ```</source>
-        <translation type="unfinished"></translation>
+        <translation>搜尋並載入模組或模組成員。
+        
+範例：
+```
+import foo                 # foo imported and bound locally
+import foo.bar.baz         # foo.bar.baz imported, foo bound locally
+import foo.bar.baz as fbb  # foo.bar.baz imported and bound as fbb
+from foo.bar import baz    # foo.bar.baz imported and bound as baz
+from foo import attr       # foo imported and foo.attr bound as attr
+from foo import *          # foo imported and all its members bound
+                                    # under their respective names
+```</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="32"/>
         <source>This is an instruction that does nothing. It is useful in cases where a statement must appear because of syntactic constraints but we have nothing to do.</source>
-        <translation type="unfinished"></translation>
+        <translation>雖然這個指令並未做任何事，但如果因為語法要求必須要有一個指令，那麼這個指令就有其用途。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="33"/>
         <source>This keyword can only appear in the body of a ``for`` or ``while`` loop. It terminates the loop early, regardless of the loop condition.
 
 See also: ``continue``</source>
-        <translation type="unfinished"></translation>
+        <translation>此關鍵字僅能在 ``for`` 或 ``while`` 迴圈中出現，不論迴圈條件如何，它都會結束迴圈。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="36"/>
         <source>An ``except`` clause can appear as a part of a ``try`` statement.</source>
-        <translation type="unfinished"></translation>
+        <translation>在 ``try`` 指令中可以有 ``except`` 指令</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="37"/>
@@ -1224,43 +1235,45 @@ See also: ``continue``</source>
 In a construct of the form ``for identifier in iterable``, ``in`` is a purely syntactic element that bears no meaning per se. See: ``for``
 
 Outside such constructs, ``in`` is an operator and its precise meaning depends on the type of the first operand.</source>
-        <translation type="unfinished"></translation>
+        <translation>此關鍵字通常是指一個結構中某個物件是否為其成員，而且有兩種不同的 ``in'' 指令。
+
+在 `for idenifier in iterable`` 結構中， ``in`` 是一個純粹的語法元素，本身沒有任何意義。若在這種結構之外， ``in`` 則一個運算子，且其意義取決於第一個運算元的資料型態。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="42"/>
         <source>The ``raise`` statement is used to raise an Exception. Raising an exception will cause the program to abort, unless the exception is handled by a surrounding ``try``/``except`` statement or ``with`` statement.</source>
-        <translation type="unfinished"></translation>
+        <translation>``raise`` 指令用來產生一個例外 (Exception)，例外產生時程式會中止，除非此例外是由 ``try``/``except` 或 ``with`` 指令來處理。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="44"/>
         <source>An ``finally`` clause can appear as a part of a ``try`` statement.</source>
-        <translation type="unfinished"></translation>
+        <translation>``finally`` 指令可以在 ``try`` 指令結構中出現。</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../../tools/pyzoInteractiveHelp.py" line="45"/>
         <source>This operator tests for an object’s identity: ``x is y`` is true if and only if ``x`` and ``y`` are the same object.
 
 See also: ``id``</source>
-        <translation type="unfinished"></translation>
+        <translation>此運算子測試某物件的身份：``x is y`` 只有在 ``x`` 和 ``y`` 是同一個物件時才會為真。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="48"/>
         <source>This keyword can only appear in the definition of a function. It is usually followed by an expression. It means that the execution of the function call terminates here and that the result of the call is the value of the following expression. If ``return`` is not followed by an expression, the result is ``None``.</source>
-        <translation type="unfinished"></translation>
+        <translation>此關鍵字僅能在函式定義中出現，且通常後面會跟著一個表示式，意思是說在這裡停止函式呼叫，而函式呼叫的結果就是該表示式計算後的值。如果 ``return`` 後面並沒有表示式，其結果就是 ``None``。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="49"/>
         <source>This operator computes the boolean conjunction in a lazy manner. More precisely, the expression ``x and y`` first evaluates ``x``; if ``x`` is false, its value is returned; otherwise, ``y`` is evaluated and the resulting value is returned.
 
 See also: ``or``, ``not``, ``True``, ``False``</source>
-        <translation type="unfinished"></translation>
+        <translation>此關鍵字以惰性方式計算布林值，也就是說，``x and y`` 指令會先計算 ``x``，如果 ``x`` 是偽就回覆其值，否則會計算 ``y`` 然後回覆其值。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="52"/>
         <source>This keyword can only appear in the body of a ``for`` or ``while`` loop. It terminates the current run of the body early. The loop may still make additional runs of its body if its condition is still true .
 
 See also: ``break``</source>
-        <translation type="unfinished"></translation>
+        <translation>此關鍵字僅能在 ``for`` 或 ``while`` 迴圈中出現，它中斷目前迴圈，但如果迴圈條件成立，就會執行下一個迴圈。亦請參考： ``break``。</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../../tools/pyzoInteractiveHelp.py" line="55"/>
@@ -1293,7 +1306,35 @@ Example:
 ```
 This builds from ``T`` a list where each item was doubled.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>``for`` 指令用來處理一個可迭代物件 (Iterable object) 裡的所有元素：
+
+```
+for variable in iterable:
+    body
+else:       # optional
+    suite
+```
+以上架構會先產生 ``iterable`` 迭代物件，然後由迭代器來處裡迭代物件裡的元素。每一個元素會依序在 ``body`` 本體中受到處理，在每個迴圈中迭代元素會被指派為迴圈變數 ``variable`` 然後執行 ``body`` 本體。當所有元素均處理完畢 (亦即迭代物件 ``iterable`` 已空)，在 ``else`` 中的 ``suite`` (如果有的話) 就會執行，執行完後迴圈結束。
+
+``break`` 指令會中止迴圈，不會執行 ``else`` 中的 ``suite`` 部份，而 ``continue`` 指令則會跳過 ``body`` 其餘的指令然後處理下一個元素，如果沒有下一個元素，就執行 ``else`` 部份。
+
+每次 for 迴圈會指派元素給迴圈變數 ``variable``，覆蓋掉前一次在 ``body`` 本體中的迴圈變數值：
+```
+for i in range(10):
+    print(i)
+    i = 5             # this will not affect the for-loop
+                      # because i will be overwritten with the next
+                      # index in the range
+```
+
+``for`` 保留字也可以是產生器 (Generator) 中的一部分。
+
+例如：
+```
+[2*x for x in T]
+```
+這樣會從 ``T`` 建立一個串例，每個元素都乘以 2。
+</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="84"/>
@@ -1303,24 +1344,29 @@ Example:
 ```
 lambda x,y,z : (x+y) * z
 ```</source>
-        <translation type="unfinished"></translation>
+        <translation>此保留字用在產生一個匿名函式。
+
+例如：
+```
+lambda x,y,z : (x+y) * z
+```</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="112"/>
         <source>The ``as`` keyword can appear in an ``import`` statement, in an ``except`` clause of a ``try`` statement or in a ``with`` statement.</source>
-        <translation type="unfinished"></translation>
+        <translation>此 ``as`` 保留字可以出現在 ``import`` 指令、``try`` 的 ``except`` 不、或 ``with`` 指令中。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="114"/>
         <source>This keyword can appear as a part of an ``import`` or a ``raise``. It has different meanings; see help on those keywords.</source>
-        <translation type="unfinished"></translation>
+        <translation>此保留字可以出現在 ``import`` 或 ``raise`` 指令中，但有不同的意義，詳見這些保留字的輔助說明。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="115"/>
         <source>This keyword can only appear in the definition of a function. It is followed by identifiers and indicates that those identifier refer variables from the outer scope, not local variables in the function being defined.
 
 See also: ``global``</source>
-        <translation type="unfinished"></translation>
+        <translation>此保留字僅能出現在函式定義中，後面跟隨一個或多個識別字，說明這些識別字是來自於外部，並非此函式的區域變數。</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../../tools/pyzoInteractiveHelp.py" line="118"/>
@@ -1335,31 +1381,43 @@ else:           # optional
 This repeatedly tests the ``expression`` and, if it is true, executes the ``body``; if the ``expression`` is false (which may be the first time it is tested) the ``suite`` of the ``else`` clause, if present, is executed and the loop terminates.
 
 A ``break`` statement executed in the ``body`` terminates the loop without executing the ``else`` clause’s ``suite``. A ``continue`` statement executed in the ``body`` skips the rest of the ``body`` and goes back to testing the ``expression``.</source>
-        <translation type="unfinished"></translation>
+        <translation>While 指令用來重複執行一群指令，只要條件成立即會執行：
+
+```
+while expression:
+    body
+else:           # optional
+    suite
+```
+布林表示式 ``expression`` 會重複測試，如果為真，就執行 ``body`` 本體；如果 ``expression`` 是偽 (有可能是第一次測試)， ''else`` 裡的 ``suite`` 部份 (如果有的話) 就會執行，然後迴圈結束。
+
+如果有 ``break`` 指令 ``body`` 本體中執行，迴圈就會中止，然後執行 ``else`` 中的 ``suite`` 部份。如果有 ``continue`` 指令在 ``body`` 本體中執行，那麼就會略過 ``body`` 的其餘部份，回到開始的 ``expression`` 布林表示式測試。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="129"/>
         <source>Assert statements are a convenient way to insert debugging assertions into a program.</source>
-        <translation type="unfinished"></translation>
+        <translation>在程式裡使用 Assert 指令可以讓除錯相當方便。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="130"/>
         <source>Deletion of a name removes the binding of that name from the local or global namespace. It is also possible to delete an item in a list.</source>
-        <translation type="unfinished"></translation>
+        <translation>將一個名稱刪除後，會將區域或全域名稱刪除，也可以將串列裡的元素刪除。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="131"/>
         <source>This keyword is followed by identifiers and indicates that those identifiers refer variables from the module scope, not local variables.
 
 See also: ``nonlocal``</source>
-        <translation type="unfinished"></translation>
+        <translation>此保留字後面跟隨一個或多個識別字，這些識別字在模組的範圍內，並非區域變數。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="134"/>
         <source>The operator ``not`` returns ``True`` if its argument is false, ``False`` otherwise.
 
 See also: ``and``, ``or``, ``True``, ``False``</source>
-        <translation type="unfinished"></translation>
+        <translation>如果 ``not`` 的參數是偽，就會回覆 ``True``，否則回覆 `False``。
+
+參見：``and``, ``or``, ``True``, ``False``</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="137"/>
@@ -1372,17 +1430,25 @@ with open(filename) as infile:
     # etc.
 ```
 In this example, the context manager will ensure correct closing of the file upon exiting the ``with`` statement, even if an exception was raised.</source>
-        <translation type="unfinished"></translation>
+        <translation>``with`` 指令用來將一區塊的由環境管理器 (Context manager) 所定義的指令包住一起執行。
+
+例如：
+```
+with open(filename) as infile:
+    header = infile.readline()
+    # etc.
+```
+在上例中，環境管理器確保當離開 ``with`` 指令後，檔案會正確關閉，即使有任何例外發生。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="146"/>
         <source>This keyword appears as part of the ``async def``, ``async for`` and ``async with`` constructs and allows for writing coroutines.</source>
-        <translation type="unfinished"></translation>
+        <translation>此保留字出現在 ``async def`` ， ``async for`` 以及 ``async with`` 結構中，可以撰寫協程 (Coroutines)。</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="147"/>
         <source>This keyword can only appear as part of an alternative. See: ``if``</source>
-        <translation type="unfinished"></translation>
+        <translation>此保留字僅能在 ``if`` 中出現，請參考： ``if``</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="148"/>
@@ -1407,19 +1473,41 @@ Example:
 [x for x in T if x%2==0]
 ```
 This filters ``T`` to keep only its even items.</source>
-        <translation type="unfinished"></translation>
+        <translation>此保留字與決策結構有關，後面跟隨一個條件，當條件成立就執行某些指令。此決策在開頭僅能有一個 ``if`` 指令，但可以包含一個或多個 ``elif`` 指令，以及在最後最多一個 ``else`` 指令。
+
+例如：
+
+```
+if condition1 :
+    doSomething       # when condition1 evaluates to True
+elif condition2 :     # optional, may have several such clauses
+    doSomeOtherthing  # when condition1 evaluates to False and condition2 to True
+else :                # optional
+    doAnotherThing    # when all conditions evaluate to False
+```
+
+
+``if`` 保留字也可以出現在產生器 (Generator) 中.
+
+例如：
+```
+[x for x in T if x%2==0]
+```
+透過 ``T`` 來山選偶數元素</translation>
     </message>
     <message>
         <location filename="../../tools/pyzoInteractiveHelp.py" line="169"/>
         <source>This operator computes the boolean disjunction in a lazy manner. More precisely, the expression ``x or y`` first evaluates ``x``; if ``x`` is true, its value is returned; otherwise, ``y`` is evaluated and the resulting value is returned.
 
 See also: ``and``, ``not``, ``True``, ``False``</source>
-        <translation type="unfinished"></translation>
+        <translation>此運算子計算惰性布林值，``x or y`` 表示式首先計算 ``x``，如果 ``x`` 是真，就回覆其值，否則計算 ``y`` 值，然後回覆計算結果。
+
+參見：``and``, ``not``, ``True``, ``False``</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../../tools/pyzoInteractiveHelp.py" line="172"/>
         <source>The ``yield`` expression is used when defining a generator function or an asynchronous generator function and thus can only be used in the body of a function definition. Using a yield expression in a function’s body causes that function to be a generator, and using it in an ``async def`` function’s body causes that coroutine function to be an asynchronous generator.</source>
-        <translation type="unfinished"></translation>
+        <translation>``yield`` 表示式用在定義產生器或非同步產生器時，因此僅能存在函式定義中。在函式定義中使用 yield 表示式會將函式變成產生器，如果在 ``async def`` 函式中使用，會將該協程函式變成非同步產生器。</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../../tools/pyzoInteractiveHelp.py" line="90"/>
